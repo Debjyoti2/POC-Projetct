@@ -1,0 +1,9 @@
+1.In abstract class some method may be abstract and some may be concrete, but atleast one method have to be abstract
+
+2. Abstract class example with bank project
+
+3. In implementation class  all method have to be abstract , means no method body.
+
+4. Abstract class can be extends , but single inheritance
+
+5. But through implementation multiple inheritance can be done.
