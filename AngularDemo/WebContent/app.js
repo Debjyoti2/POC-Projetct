@@ -5,6 +5,7 @@ app.controller("uppCntrl",function($scope){
 
 app.directive("myDirCustom",function(){
 	return{
+		restrict : "A",
 		template:"Hi Im a custom made directive"
 	};
 		
