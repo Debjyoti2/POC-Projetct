@@ -3,23 +3,15 @@ package com;
 //java constructor is used to initialize an object
 public class Employee {
 
-	 int emp_id;
-	 String name;
-	 //String nameId;
+	 public String emp_id;
+	 public String name;
+	 public String nameId;
 	
 	
-	Employee(int emp_id,String name){
-		emp_id= this.emp_id;
-		name=this.name;
-		//nameId= this.emp_id.toString() + this.emp_name;
+	Employee(String emp_id1,String name1){
+		this.emp_id= emp_id1;
+		this.name=name1;
+		this.nameId= emp_id1 + name1;
 		
 	}
-	
-	public static void main(String args[]) {
-		
-		Employee e1 = new Employee(1,"deepak");
-		System.out.println("emp 1 is: " + e1.emp_id + e1.name);
-	}
-	
-	
 }
